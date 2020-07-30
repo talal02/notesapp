@@ -29,7 +29,7 @@ Use Following `Command` to read particular note
 ``` 
 node index.js read --title="Add title of note you want to read"
 ```
-### MORE INFORMATION
+## More Information
 Use Following `Command` for more information
 ```
 node index.js --help

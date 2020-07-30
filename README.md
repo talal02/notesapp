@@ -1,16 +1,13 @@
 # notesapp
 A simple classy node.js application for storing your notes...
-
+## Requirements
+You need __*node.js*__ to run this app.
 ## Documentation
 Type this `command` if you are using application for __*first time*__
 ```
 npm install
 ```
-You can perform following functions in this application : 
-> add
-> remove
-> list
-> read
+You can _`add, remove, list and read`_ notes in this application.
 ### Examples
 ##### ADD
 Use Following `Command` to add note
@@ -31,4 +28,9 @@ node index.js list
 Use Following `Command` to read particular note
 ``` 
 node index.js read --title="Add title of note you want to read"
+```
+### MORE INFORMATION
+Use Following `Command` for more information
+```
+node index.js --help
 ```

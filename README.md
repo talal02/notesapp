@@ -6,7 +6,11 @@ Type this `command` if you are using application for __*first time*__
 ```
 npm install
 ```
-You can _`add`, `remove`, `list` and `read`_ your saved notes.
+You can perform following functions in this application : 
+> add
+> remove
+> list
+> read
 ### Examples
 ##### ADD
 Use Following `Command` to add note

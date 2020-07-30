@@ -9,8 +9,22 @@ npm install
 You can _`add`, `remove`, `list` and `read`_ your saved notes.
 ### Examples
 ##### ADD
-Use Following `Command` to add note in application
-> ``` 
-  node index.js --title="__*Add title of your note here*__" --body="__*Add body of your note here*__"
-  ```
-  
+Use Following `Command` to add note
+``` 
+node index.js add --title="Add title of your note here" --body="Add body of your note here"
+```
+##### REMOVE
+Use Following `Command` to remove particular note
+``` 
+node index.js remove --title="Add title of note you want to remove"
+```
+##### REMOVE
+Use Following `Command` to list all notes
+``` 
+node index.js list
+```
+##### READ
+Use Following `Command` to read particular note
+``` 
+node index.js read --title="Add title of note you want to read"
+```
